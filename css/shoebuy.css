@@ -1,0 +1,99 @@
+body {
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    background: #f3f4f6;
+    padding: 32px;
+}
+
+.product-card {
+    max-width: 980px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 24px;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.price-row {
+    color: red;
+    display: flex;
+    align-items: baseline;
+    gap: 22px
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--price)
+}
+
+.orig {
+    font-size: 14px;
+    color: var(--muted);
+    text-decoration: line-through
+}
+
+.off {
+    font-weight: 900;
+    color: #059669;
+    background: #ecfdf5;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.offers {
+    background: #fff7ed;
+    padding: 10px;
+    border-left: 4px solid #fde68a;
+    border-radius: 6px;
+    font-size: 14px
+}
+
+
+.actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 6px
+}
+
+.btn, .secondary{
+    background: #f7ae04;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600
+}
+.meta {
+    background: #f9fafb;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: black;
+}
